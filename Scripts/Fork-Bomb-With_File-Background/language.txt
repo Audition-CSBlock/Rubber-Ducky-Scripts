@@ -1,1 +1,1 @@
-default: GB
+UK

